@@ -81,7 +81,7 @@ int main()
 	int PublicKey[2];
 	int PrivateKey[2];
 	int P = 3;
-	int Q = 7;
+	int Q = 7;// P,Q-простые числа
 	int N = Module(P, Q);
 	int F = EulerFunction(P, Q);
 	int E = f(F);

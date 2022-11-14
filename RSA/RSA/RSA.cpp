@@ -51,7 +51,7 @@ int SearchD(int E, int F)
 	int D = 1;
 	while(true)
 	{
-		if (((D * E) % F == 1) and (D != E))
+		if (((D * E) % F == 1))// and (D != E))
 			return D;
 		D++;
 	}
